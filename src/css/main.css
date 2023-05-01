@@ -1,0 +1,195 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/** nav bar and header banners **/
+header .navbar .navbar-nav {
+    width: 40%;
+}
+header .navbar .navbar-nav .nav-link {
+    color: #0F2145;
+    font-weight: 500;
+}
+header .navbar .navbar-nav .nav-link.active {
+    color: #fff;
+}
+#homeWrap #carouselExampleSlidesOnly .carousel-inner {
+    height: 600px;
+}
+#homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption {
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 15% 5%;
+}
+#homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item {
+    aspect-ratio: 21/9;
+}
+#homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item img {
+    height: 100%;
+}
+#homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption span {
+    color: #032856;
+}
+#homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption .text-uniq {
+    color: #029ADF;
+}
+#homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption .btn-singup {
+    background-color: #032856;
+    color: #ffffff;
+}
+@media (max-width: 570px) { 
+    header {
+        height: 56px;
+    }
+    header .navbar {
+        background-color: #ffffff;
+    }
+    #homeWrap #carouselExampleSlidesOnly .carousel-inner {
+        height: auto;
+    }
+    #homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption{
+        left: 0;
+        top: 0;
+        padding: 5%;
+    }
+    #homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption .fs-2 {
+        font-size: 1rem !important;
+    }
+    #homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption .fs-1 {
+        font-size: 1.5rem !important;
+    }
+    #homeWrap #carouselExampleSlidesOnly .carousel-inner .carousel-item .carousel-caption .btn-singup {
+        font-size: 1rem !important;
+    }
+
+ }
+
+/** aboutUSWrap **/
+#aboutUSWrap h1{
+    font-weight: bold;
+    margin: 30px 0;
+    color: #0E1E3E;
+}
+#aboutUSWrap #aboutUsCarousel .carousel-inner {
+    width: 65% !important;
+    border: 25px solid #EAF5E5;
+}
+#aboutUSWrap #aboutUsCarousel .carousel-inner .about-carousel-item {
+    display: flex;
+}
+#aboutUSWrap #aboutUsCarousel .carousel-inner .about-carousel-item .about-carousel-item-txt {
+    text-align: center;
+    padding: 10px;
+}
+#aboutUSWrap #aboutUsCarousel .carousel-inner .about-carousel-item .about-carousel-item-txt .what-we-do {
+    text-align: left;
+    margin: 10px 0 10px -65px;
+    display: block;
+    width: 75%;
+}
+#aboutUSWrap #aboutUsCarousel .carousel-inner .about-carousel-item .about-carousel-item-txt .what-we-research {
+    text-align: start;
+    width: 75%;
+    display: block;
+    float: right;
+}
+#aboutUSWrap #aboutUsCarousel .carousel-inner .about-carousel-item img{
+    clip-path: polygon(0 0, 44% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 570px) { 
+    #aboutUSWrap #aboutUsCarousel .carousel-inner {
+        width: 100% !important;
+        border: 25px solid #EAF5E5;
+    }
+    #aboutUSWrap #aboutUsCarousel button {
+        display: none;
+    }
+    #researchWrap .wrapper {
+        width: 100% !important;
+    }
+}
+
+/** researchWrap **/
+#researchWrap {
+    margin-bottom: 200px;
+}
+#researchWrap h1 {
+    color: #0E1E3E;
+    font-weight: bold;
+    margin: 30px 0;
+}
+#researchWrap .wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#researchWrap .wrapper .card {
+    border: none;
+}
+#researchWrap .wrapper .card .circle {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    cursor: default;
+}
+#researchWrap .wrapper .card .circle .box,
+#researchWrap .wrapper .card .circle .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#researchWrap .wrapper .card .circle .box {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.2s;
+}
+#researchWrap .wrapper .circle .box span {
+    font-size: 50px;
+    font-weight: 900;
+    transform: translate(-45%, -45%);
+    transition: all 0.1s;
+    color: #03285D;
+}
+
+/** footerWrap **/
+#footerWrap {
+    background-color: #029ADF;
+    padding: 15px;
+}
+#footerWrap .footerWrap-title {
+    display: flex;
+}
+#footerWrap .footerWrap-title h1 {
+    width: 95%;
+}
+#footerWrap .footerWrap-title .footerWrap-btn {
+    float: right;
+    background: transparent;
+    border: none;
+}
+#footerWrap #getInTouch {
+    padding: 20px;
+}
+#footerWrap #getInTouch form .row {
+    padding: 0 30px;
+}
+#footerWrap #getInTouch form .row .submitwrap {
+    position: relative;
+    height: 70px;
+}
+#footerWrap #getInTouch form .row .submitwrap button{
+    position: absolute;
+    bottom: 0;
+    background-color: #0E1E3E;
+    width: 50%;
+    right: 0;
+}
+#footerWrap #getInTouch form .row .col {
+    min-width: 200px;
+    
+}
